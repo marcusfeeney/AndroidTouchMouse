@@ -3,7 +3,7 @@ AndroidTouchMouse
 
 Basic Android client app to control a host machine's mouse pointer
 
-Server: [https://github.com/marcusfeeney/AndroidTouchMouseServer]
+Server: https://github.com/marcusfeeney/AndroidTouchMouseServer
 
 ##Getting Started
   * Build Eclipse project
