@@ -1,0 +1,40 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="Mouse Settings">
+
+        <EditTextPreference
+            	android:defaultValue="0.7"
+            	android:inputType="numberDecimal"
+                android:key="pref_sensitivity"
+                android:title="Sensitivity"
+                android:dialogTitle="Set mouse sensitivity" />
+        
+        <EditTextPreference
+            	android:defaultValue="1.5"
+            	android:inputType="numberDecimal"
+                android:key="pref_acceleration"
+                android:title="Acceleration"
+                android:dialogTitle="Set mouse acceleration" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="Server Settings">
+
+        <EditTextPreference
+                android:key="pref_server"
+                android:title="Server Address"
+                android:dialogTitle="Set server address" />
+        
+        <EditTextPreference
+            	android:defaultValue="9000"
+            	android:inputType="number"
+                android:key="pref_port"
+                android:title="Server Port"
+                android:dialogTitle="Set server port" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

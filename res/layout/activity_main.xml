@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#242424"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/Button_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="onButtonLeftClicked"
+        android:text="@string/button_left"
+        android:textColor="#f5f5f5" />
+
+    <Button
+        android:id="@+id/Button_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="onButtonRightClicked"
+        android:text="@string/button_right"
+        android:textColor="#f5f5f5" />
+
+</LinearLayout>

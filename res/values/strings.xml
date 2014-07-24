@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">AndroidTouchMouse</string>
+	<string name="action_settings">Settings</string>
+    <string name="button_left">Left Click</string>
+    <string name="button_right">Right Click</string>
+    <string name="prefs_sensitivity">Sensitivity</string>
+	
+</resources>
