@@ -36,7 +36,7 @@ public class Sender {
 		byte[] msgBytes = null;
         try {
             InetAddress serverAddr = InetAddress.getByName(serverIP);
-            //System.out.print("Connecting...");
+            //System.out.print("Connecting: " + serverIP + ":" + serverPort);
             socket = new Socket(serverAddr, serverPort);
             //System.out.println("Done");
         	OutputStream out = socket.getOutputStream();
