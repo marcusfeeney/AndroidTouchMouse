@@ -29,7 +29,6 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
 	
 	private final String PREF_SENSITIVITY = "pref_sensitivity";
 	private final String PREF_ACCELERATION = "pref_acceleration";
-	
 	private float sensitivity;
 	private float acceleration;
 	private float movePreviousX;
