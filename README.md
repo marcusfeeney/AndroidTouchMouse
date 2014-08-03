@@ -9,7 +9,7 @@ Server: https://github.com/marcusfeeney/AndroidTouchMouseServer
   * Build Eclipse project
   * Start the app - press the device's 'settings' button - enter 'Server IP' (the IP address of the [server](https://github.com/marcusfeeney/AndroidTouchMouseServer))
   
-Connects to server port 9000 by default, tested on Samsung Galaxy S2.
+Connects to server port 9000 by default, tested on Samsung Galaxy S2 and S4.
 
 ####Known Issues/Limitations
   * Does not support multi-touch events
